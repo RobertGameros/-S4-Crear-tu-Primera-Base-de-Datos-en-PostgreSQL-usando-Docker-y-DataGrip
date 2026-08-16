@@ -14,7 +14,7 @@ Este repositorio documenta la ejecución técnica integral para desplegar un con
 Para inicializar el entorno, descargar la imagen oficial de PostgreSQL y configurar el contenedor con credenciales personalizadas, ejecuta el siguiente comando en la terminal:
 
 ```bash
-docker run --name ContenedorRob -e POSTGRES_USER=Robert -e POSTGRES_PASSWORD=[TU_CONTRASEÑA] -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
+docker run --name ContenedorRobert -e POSTGRES_USER=Robert -e POSTGRES_PASSWORD=[TU_CONTRASEÑA] -e POSTGRES_DB=postgres -p 5432:5432 -d postgres
 ```
 
 Verificación: Confirma que el contenedor se está ejecutando correctamente y escuchando en el puerto local mediante el comando:
